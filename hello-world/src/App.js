@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Greet} from './components/Greet.js';
 
 function App() {
   return (
@@ -7,8 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World! I'm ZAKARIA
+          Hello World!
         </p>
+        <Greet />
         <a
           className="App-link"
           href="https://reactjs.org"
